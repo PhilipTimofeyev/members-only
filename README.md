@@ -1,24 +1,15 @@
-# README
+# Members Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby On Rails project part of The Odin Projects curriculum. 
 
-Things you may want to cover:
+The purpose of this project was to create a website that allows registered users to create posts and view the names of members' posts, while preventing non-registered users from posting or seeing who created a post.
 
-* Ruby version
+This project helped solidify my understanding of:
 
-* System dependencies
+- Creating models with associations to each other.
+- Modifying databases using migrations.
+- Using the Devise framework as an authentication library.
+- Using bootstrap to create a navigation partial.
+- Creating and modifying Rails' views to show specific data using ERB.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Future development would involve cleaning up the front-end to be more presentable and pleasent for the user experience.
