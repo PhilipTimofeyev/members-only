@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
+  # devise_for :users
+  devise_for :users, :controllers => { registrations: 'users/registrations' }
   root 'main#home'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -12,7 +13,7 @@ Rails.application.routes.draw do
 
   resources :posts, only: [:new, :create, :index]
   # resources :users
-  
+
   resources :users do
     resources :posts
   end
